@@ -1,0 +1,2 @@
+/usr/bin/ar qc libubigint_t.a  CMakeFiles/ubigint_t.dir/src/ubigint_t.cpp.o
+/usr/bin/ranlib libubigint_t.a

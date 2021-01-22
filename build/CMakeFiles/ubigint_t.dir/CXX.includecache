@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/rpac/Dev/cpp/crypto/inc/ubigint_t.h
+string
+-
+
+/home/rpac/Dev/cpp/crypto/src/ubigint_t.cpp
+../inc/ubigint_t.h
+/home/rpac/Dev/cpp/crypto/inc/ubigint_t.h
+iostream
+-
+algorithm
+-
+
